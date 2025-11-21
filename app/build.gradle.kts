@@ -1,6 +1,7 @@
 plugins {
     application
     id("com.github.ben-manes.versions") version "0.53.0"
+    id("org.sonarqube") version "7.1.0.6387"
 }
 
 group = "hexlet.code"
@@ -18,6 +19,13 @@ application {
 buildscript {
     repositories {
         gradlePluginPortal()
+    }
+}
+
+sonar {
+    properties {
+        property("sonar.projectKey", "Elessarov1_java-project-61")
+        property("sonar.organization", "elessarov1")
     }
 }
 
