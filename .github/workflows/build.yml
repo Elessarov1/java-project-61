@@ -45,4 +45,4 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           # если у тебя self-hosted SonarQube и Gradle-конфиг этого не задаёт, можно ещё:
           # SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: ./gradlew build sonar --info
+        run: ./app/gradlew build sonar --info
