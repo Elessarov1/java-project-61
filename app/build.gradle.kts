@@ -1,5 +1,6 @@
 plugins {
     application
+    checkstyle
     id("com.github.ben-manes.versions") version "0.53.0"
     id("org.sonarqube") version "7.1.0.6387"
 }
@@ -20,6 +21,11 @@ buildscript {
     repositories {
         gradlePluginPortal()
     }
+}
+
+checkstyle {
+    toolVersion = "10.17.0"
+    configFile = file("config/checkstyle/checkstyle.xml")
 }
 
 sonar {
