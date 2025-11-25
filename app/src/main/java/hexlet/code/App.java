@@ -2,6 +2,7 @@ package hexlet.code;
 
 import java.util.Scanner;
 
+@SuppressWarnings("java:S106")
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
