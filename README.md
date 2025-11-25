@@ -10,3 +10,7 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Elessarov1_java-project-61&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Elessarov1_java-project-61)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Elessarov1_java-project-61&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Elessarov1_java-project-61)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Elessarov1_java-project-61&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Elessarov1_java-project-61)
+
+## Пример запуска игры
+
+[![asciicast](https://asciinema.org/a/R4mSzJmgVyEJe8tVkT1OSoLDq.svg)](https://asciinema.org/a/R4mSzJmgVyEJe8tVkT1OSoLDq)
