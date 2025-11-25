@@ -22,7 +22,7 @@ public class Cli {
         int correctAnswersInRow = 0;
 
         while (correctAnswersInRow < answersToWin) {
-            int number = (int) (Math.random() * 100);
+            int number = (int) (Math.random() * 100); // NOSONAR
             String correctAnswer = isEven(number)
                     ? "yes"
                     : "no";
